@@ -22,9 +22,9 @@ public class HomePage extends Page {
 	private static final String ELEMENT_AFTER_SENDING_XPATH = "//*[@id='b-compose__sent']/div/div[2]/div[1]/span";
 	private static final String IFRAME_NAME = "iframe";
 
-	private static final String RECIPIENT = "anna.khmialnitskaya@gmail.com";
-	private static final String SUBJECT_MESSAGE = "Anna Khmialnitskaya: Sending email using Selenium";
-	private static final String MESSAGE = "https://github.com/annakhmialnitskaya/SeleniumEmail";
+	private static final String RECIPIENT = "akh100500@gmail.com";
+	private static final String SUBJECT_MESSAGE = "Sending email using Selenium";
+	private static final String MESSAGE = "Selenium Email Test";
 
 	public HomePage(WebDriver driver) {
 		super(driver);
